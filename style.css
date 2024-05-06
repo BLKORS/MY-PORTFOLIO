@@ -12,8 +12,8 @@
 }
 
 :root {
-    --bg-color: #36393a;
-    --second-bg-color: #575757;
+    --bg-color: black;
+    --second-bg-color: #080808;
     --text-color: #ededed;
     --main-color: #00abf0;
 }
@@ -76,7 +76,7 @@ section {
     display: flex;
     align-items: center;
     padding: 0 9%;
-    background: url('images/home.jpg') no-repeat;
+    background: url('images/home2.jpg') no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -322,4 +322,13 @@ span {
 .education-column .title {
     font-size: 2.5rem;
     margin: 0 0 1.5rem 2rem;
+}
+
+.education-column .education-row {
+    border-left: .2rem solid var(--main-color);
+}
+
+.education-box .education-container {
+    position: relative;
+    padding-left: 2rem;
 }
