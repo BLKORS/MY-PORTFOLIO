@@ -315,4 +315,6 @@ span {
     gap: 5rem;
 }
 
-.education-row 
+.education-row {
+    visibility: hidden;
+}
