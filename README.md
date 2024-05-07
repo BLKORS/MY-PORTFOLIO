@@ -23,7 +23,7 @@ I haven't started any projects yet, but stay tuned for future updates!
 
 ## Website Preview
 
-home.png
+[home.png]
 
 ## Getting Started
 
