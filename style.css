@@ -332,3 +332,20 @@ span {
     position: relative;
     padding-left: 2rem;
 }
+
+.education-content .content {
+    position: relativ;
+    padding: 1.5rem;
+    border: .2rem solid var(--main-color);
+    border-radius: .6rem;
+}
+
+.education-content .content .year {
+    font-size: 1.5rem;
+    color: var(--main-color);
+    padding-bottom: .5rem;
+}
+
+.education-content .content .year i {
+    padding-right: .5rem;
+}
