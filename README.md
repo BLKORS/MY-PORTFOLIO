@@ -4,7 +4,7 @@ Welcome to my portfolio website! This repository contains the source code for my
 
 ## About Me
 
-I am Billy Korir, a Computer Science student majoring in Data Science. I'm  eager to learn and apply my skills to real-world projects.
+I a Computer Science student majoring in Data Science. I'm  eager to learn and apply my skills to real-world projects.
 
 ## Portfolio
 
