@@ -334,11 +334,25 @@ span {
 }
 
 .education-content .content {
-    position: relativ;
+    position: relative;
     padding: 1.5rem;
     border: .2rem solid var(--main-color);
     border-radius: .6rem;
+    margin-bottom: 2rem;
 }
+
+
+.education-box .education-content::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -1.1rem;
+    width: 2rem;
+    height: 2rem;
+    background: var(--main-color);
+    border-radius: 50%;
+}
+
 
 .education-content .content .year {
     font-size: 1.5rem;
@@ -358,3 +372,4 @@ span {
     font-size: 1.6rem;
     padding-top: .5rem;
 }
+
