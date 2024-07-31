@@ -618,7 +618,6 @@ span {
 
 .footer-iconTop a:hover::before {
     width: 100%;
-
 }
 
 .footer-iconTop a i {
@@ -630,6 +629,7 @@ span {
 .footer-iconTop a:hover i {
     color: var(--main-color);
 }
+
 
 
 @media (max-width: 1200px) {
@@ -659,6 +659,32 @@ span {
 @media (max-width: 768px) {
     .header {
         background: var(--bg-color);
+    }
+
+    #menu-icon {
+        display: block;
+    }
+
+    .navbar {
+        position: absolute;
+        inset-block-start: 100%;
+        inset-inline-start: -100%;
+        padding: 1rem 4%;
+        background: var(--main-color);
+        box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
+        transition: .25s ease;
+        transition-delay: .25s;
+    }
+
+    .navbar.active {
+        left: 0; 
+        transition-delay: 0s;
+    }
+
+    .navbar a {
+        display: block;
+        font-size: 2rem;
+        margin: 3rem 0;
     }
 }
 
